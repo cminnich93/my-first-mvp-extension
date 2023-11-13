@@ -11,11 +11,15 @@ function App() {
       </video>
       <div className="title">
         <h1>ECO LAB</h1>
-        < Navbar />
+        <Navbar />
+        <p className='bottom-text'>NATURE TECHNOLOGY DESIGN</p>
       </div>
     </div>
   );
 }
+
+
+
 
 
 

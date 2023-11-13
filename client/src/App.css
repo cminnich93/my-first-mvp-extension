@@ -18,11 +18,45 @@
     top: 0;
     display: flex;
     flex-direction: column;
-    justify-content:first baseline;
-    color: black;
+    justify-content: baseline;
+    color: white;
   }
  
- .Navbar {
-  color: black;
- }
+  nav {
+    width: 200px;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    right: 0; 
+    top: 0; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    font-size: 3rem;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  
+ 
+  
+
+
+
+ 
   
