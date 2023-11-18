@@ -5,9 +5,9 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        <li><Link to="/mission">Mission</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/create">Create</Link></li>
+      <li><Link to="/share">SHARE</Link></li>
+        <li><Link to="/Challenge">CHALLENGE</Link></li>
+        <li><Link to="/mission">MISSION</Link></li>
       </ul>
     </nav>
   );
