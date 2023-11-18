@@ -1,10 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Navbar from "./components/Navbar";
-import Mission from "./components/Mission";
-import Challenge from "./components/Challenge";
-import Share from "./components/Share";
-import "./App.css";
+import Navbar from './components/Navbar';
+import Mission from './components/Mission';
+import Challenge from './components/Challenge';
+import Share from './components/Share';
+import './App.css';
+
+
 
 function App() {
   return (
@@ -14,16 +16,12 @@ function App() {
           <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
           </Link>
         </div>
-        
-          
-        
+
         <Navbar />
         <Switch>
           <Route path="/mission" component={Mission} />
           <Route path="/challenge" component={Challenge} />
           <Route path="/share" component={Share} />
-          <Route path="/" exact>
-          </Route>
         </Switch>
       </div>
     </Router>

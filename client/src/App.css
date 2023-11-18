@@ -26,15 +26,16 @@ body {
   
   
   .title h1 {
-    font-size: 4rem;
+    font-size: 7rem;
     color: black;
     font-family: 'Noto Sans New Tai Lue', sans-serif;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 2.50px;
-    word-wrap: break-word;
     margin-left: 15px;
     margin-bottom: 50px;
+    letter-spacing: 0cap;
+    padding-top: 3.4rem;
   }
   
   .bio {
@@ -45,6 +46,11 @@ body {
     margin: auto;
     padding: 20px;
     font-family: 'Noto Sans New Tai Lue', sans-serif;
+    font-weight: 100;
   }
   
-  
+  .bio-highlight {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }

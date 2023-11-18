@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Element } from 'react-scroll';
 
 function Share() {
   const [selectedFile, setSelectedFile] = useState(null);

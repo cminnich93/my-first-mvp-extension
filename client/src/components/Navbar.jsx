@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { ScrollLink } from 'react-scroll';
 import './Navbar.css';
+import photo2 from './photo2.jpg';
 
 const Navbar = () => {
   return (
@@ -8,14 +9,22 @@ const Navbar = () => {
       <h1>Ecolab</h1>
       <div className="links">
         <ul>
-          <li><Link to="/mission">Mission</Link></li>
-          <li><Link to="/challenge">Challenge</Link></li>
-          <li><Link to="/share">Share</Link></li>
+          <li><ScrollLink to="home" spy={true} smooth={true} offset={50} duration={500}>HOME</ScrollLink></li>
+          <li><ScrollLink to="mission" spy={true} smooth={true} offset={50} duration={500}>MISSION</ScrollLink></li>
+          <li><ScrollLink to="challenge" spy={true} smooth={true} offset={50} duration={500}>CHALLENGE</ScrollLink></li>
+          <li><ScrollLink to="share" spy={true} smooth={true} offset={50} duration={500}>SHARE</ScrollLink></li>
         </ul>
       </div>
       <div className="bio">
-        <p><b>ECOLAB is a platform that was established to empower the public to create innovative design solutions by, for, and with nature while advancing humanity.</b></p>
+        <p>
+          <span></span>
+          <span>Ecolab is a platform that was established to empower people of all</span>
+          <span> disciplines to create innovative design solutions by, for, and with</span>
+          <span>nature while advancing humanity.</span>
+        </p>
       </div>
+      <img src={photo2} alt="My Photo" style={{ width: '580px', height: '600px' }} />
+      <p>Neri Oxman: Material Ecology, 2020, The Museum of Modern Art, New York </p>
     </nav>
   );
 }

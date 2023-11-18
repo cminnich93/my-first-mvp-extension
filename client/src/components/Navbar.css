@@ -1,27 +1,41 @@
-
 nav {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    max-width: 600px;
-    margin: 0 auto;
-    border-bottom: 1px;
-    }
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px;
+  text-align: justify;
+}
 
-  .navbar .links {
-    margin-left: auto;
-  }
+.navbar .links {
+  margin-left: auto;
+}
 
-  .navbar a {
-    margin-left: 16px;
-    text-decoration: none;
-    padding: 6px;
-  }
-  
-  .navbar a:hover {
-    color: black;
-  }
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 1px 0;
+  color: black;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  font-weight: 500;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
+}
 
-  
+.navbar a:hover {
+  border-bottom: 3px solid black;
+  color: black;
+}
 
-  
+.bio {
+  padding: 4px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+.bio p span {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  display: block;
+  margin-bottom: 10px;
+}

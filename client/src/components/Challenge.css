@@ -1,0 +1,23 @@
+.challenge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  color: black;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+}
+
+.paragraph {
+  text-align: center;
+  max-width: 600px; 
+  font-size: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 10px;
+  color: black;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+}
