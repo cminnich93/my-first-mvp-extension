@@ -16,7 +16,7 @@ function App() {
           <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
           </Link>
         </div>
-
+        
         <Navbar />
         <Switch>
           <Route path="/mission" component={Mission} />
