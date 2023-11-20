@@ -9,11 +9,7 @@ function Mission() {
       
       <div className="mission-paragraph">
         <p>
-          In pursuit of our own technological advancement, we have created a rift between humanity and nature.
-          For the first time in our planet’s history, the anthropomass - the mass of human-made goods - now outweighs the biomass - the mass of all living things. Humanity has rapidly unraveled what has taken nature billions of years of evolution to create, resulting in a threat to the continued viability of life on Earth. 
-       
-         Ecolab proposes the creation of design solutions by, for, and with nature while advancing humanity. The goal of Ecolab is to create a community of collaboration across disciplines, and to build meaningful public discussion about bio-design and its uses. To that end, designers are empowered to dream up new, dynamic design possibilities, where products and structures can grow, heal, and adapt.
-        
+        In pursuit of our own technological advancement, humanity has rapidly unravelled what has taken nature billions of years of evolution to create. For the first time in our planet’s history, the anthropomass - the mass of human-made goods - now outweighs the biomass - the mass of all living things. In response to this rift between humanity and nature, Ecolab aims to seed a new generation of climate conscious thinkers to create innovative design solutions by, for, and with nature while advancing humanity. Through a selection of prompts, designers are encouraged to dream up new, dynamic design possibilities, where products and structures can grow, heal, and adapt.
         </p>
 
         
