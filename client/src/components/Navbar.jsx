@@ -22,13 +22,13 @@ const Navbar = () => {
           <div className="bio">
             <p>
               <span></span>
-              <span>Ecolab is a platform that was established to empower people of all</span>
-              <span> disciplines to create innovative design solutions by, for, and with</span>
-              <span>nature while advancing humanity.</span>
+              <span>Ecolab is a platform that was established to empower people of</span>
+              <span> all disciplines to create innovative design solutions by, for, and</span>
+              <span>with nature while advancing humanity.</span>
             </p>
           </div>
-          <img src={photo2} alt="My Photo" style={{ width: '580px', height: '600px' }} />
-          <p>Neri Oxman: Material Ecology, 2020, The Museum of Modern Art, New York </p>
+          <img src={photo2} alt="My Photo" style={{ width: '580px', height: '700px' }} />
+           <p className="specific-paragraph-style">Neri Oxman: Material Ecology, 2020, The Museum of Modern Art, New York </p>
         </div>
       )}
     </nav>
