@@ -22,21 +22,23 @@ Ecolab is a platform designed to empower high school students (aged 13 - 18) to 
 
 ## Getting Started
 
-# Prequisites 
+## Prequisites 
 
 - npm
   
 npm install npm@latest -g
 
-# Installation
+## Installation
 
 1. Clone the repo
+   
 git clone https://github.com/Arabella-Moss/my-first-mvp.git
 
-2. Install NPM packages
+3. Install NPM packages
+   
 npm install
 
-# License
+## License
 This is a student project that was created at CodeOp, a full stack development bootcamp in Barcelona.
 
 
