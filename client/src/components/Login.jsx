@@ -1,7 +1,9 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+const navigate = useNavigate();
   const [credentials, setCredentials] = useState({
     email: "test",
     password: "test",
@@ -27,6 +29,8 @@ function Login() {
     //store it locally
     localStorage.setItem("token", data.token);
     console.log(data.message, data.token);
+    navigate("/designs");
+
   } catch (error) {
     console.log(error);
   }
@@ -66,4 +70,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login();
