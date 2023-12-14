@@ -23,7 +23,8 @@ const upload = multer({ storage: storage });
 app.use('/uploads', express.static('uploads'));
 
 
-app.post('/upload', upload.single('photo'), (req, res) => {
+app.post('/upload', upload.array('photos'), (req, res) => {
+  console.log(req.files);
   if (!req.file) {
     return res.status(400).send('No file uploaded.');
   }

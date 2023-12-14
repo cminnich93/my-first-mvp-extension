@@ -15,6 +15,9 @@ const Navbar = () => {
           <li><Link to="/mission">MISSION</Link></li>
           <li><Link to="/challenge">CHALLENGE</Link></li>
           <li><Link to="/share">SHARE</Link></li>
+          <li><Link to="/designs">DESIGNS</Link></li>
+          <li><Link to="/login">LOGIN</Link></li>
+          <li><Link to="/register">REGISTER</Link></li>
         </ul>
       </div>
       {location.pathname === '/' && (
