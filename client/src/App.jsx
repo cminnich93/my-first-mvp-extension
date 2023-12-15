@@ -24,13 +24,13 @@ function App() {
         
         <Navbar />
         <Routes>
-          <Route path="/" component={Home} />
-          <Route path="/mission" component={Mission} />
-          <Route path="/challenge" component={Challenge} />
-          <Route path="/share" component={Share} />
-          <Route path="/designs" component={Designs} />
-          <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/mission" element={<Mission/>} />
+          <Route path="/challenge" element={<Challenge/>} />
+          <Route path="/share" element={<Share/>} />
+          <Route path="/designs" element={<Designs/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/register" element={<Register/>} />
         </Routes>
       </div>
     </>

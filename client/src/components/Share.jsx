@@ -47,8 +47,8 @@ function Share() {
       <form>
         <div className="form-fields">
         <h2 style={{ fontSize: '2rem', padding: '2rem', fontWeight: '500' }}>Upload Design</h2>
-      <input type="file" onChange={handleFileChange} accept="image/*" />
-      <button onClick={handleFileUpload}>Upload Photo</button><br />
+      <center /><input type="file" onChange={handleFileChange} accept="image/*" />
+     <br />
           <label htmlFor="tField">Design Name</label><br />
           <input
               id = "tField"
@@ -58,7 +58,7 @@ function Share() {
             />
             {/* onChange={(handleInputChange} */}
           </div>
-          <div className="form-fields span-2-cols">
+          <div className="form-fields-bigger">
             <label htmlFor="dField">Description</label><br />
             <textarea
                 id = "dField"
@@ -76,7 +76,7 @@ function Share() {
                 onChange={(e) => handleDesignerChange(e)}
               />
           </div>
-          <div className="span-2-cols s-btn-container">
+          <div className="form-fields">
               <button>Submit</button>
           </div>
 

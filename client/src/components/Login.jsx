@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import './Login.css'
 
-function Login() {
+// ************** CHANGE HERE: "export default function" (instead of just "function" **************
+export default function Login() {
 const navigate = useNavigate();
   const [credentials, setCredentials] = useState({
-    email: "test",
-    password: "test",
+    email: "Email",
+    password: "Password",
   });
 
   // eslint-disable-next-line no-unused-vars
@@ -44,17 +46,17 @@ const navigate = useNavigate();
           onChange={handleChange}
           name="email"
           type="text"
-          className="form-control mb-2"
+          className="email-password-input"
         />
         <input
           value={password}
           onChange={handleChange}
           name="password"
           type="password"
-          className="form-control mb-2"
+          className="email-password-input"
         />
-        <div className="d-flex gap-2 justify-content-center">
-          <button className="btn btn-primary" onClick={login}>
+        <div className="login-button">
+          <button className="login-button" onClick={login}>
             Log in
           </button>
         </div>
@@ -70,4 +72,3 @@ const navigate = useNavigate();
   );
 }
 
-export default Login();

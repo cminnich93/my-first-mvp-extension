@@ -1,19 +1,18 @@
-.form-fields {
+  .email-password-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-family: 'Noto Sans New Tai Lue', sans-serif;
-}
-
-.form-fields-bigger {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+  }
+  
+  .login-button {
+    background-color: #000;
+    color: #eecfcf;
+    padding: 10px 20px;
+    border: 1px solid #000;
     border-radius: 5px;
+    cursor: pointer;
     font-family: 'Noto Sans New Tai Lue', sans-serif;
-}
-
-
+  } 
